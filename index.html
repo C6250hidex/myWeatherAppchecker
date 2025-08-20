@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - chidex apthech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button type="button">Search</button>
+        </div>
+        <p class="error"> Invaild City Name, please enter a correct City Name</p>
+        <article class="weather">
+            <img src="./images/rain.png" alt="weather-img" class="weather-icon">
+            <h1 class="temp"> 22℃</h1>
+            <h2 class="city"> Abuja</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="./images/wind.png" alt="">
+                    <div>
+                        <p class="wind">20 km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">70%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
